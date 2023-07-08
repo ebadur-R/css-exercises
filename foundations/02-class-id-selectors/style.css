@@ -1,0 +1,38 @@
+/* style.css */
+
+/* changing class elements (odd-numbered-elements) 
+* **All odd numbered elements**: a light red/pink background, 
+and a list of fonts containing `Verdana` and `DejaVu Sans` with `sans-serif` 
+as a fallback*/
+
+.odd-numbered-elements{
+    background-color:rgb(246, 176, 176);
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+/* The second element**: blue text and a font size of 36px */
+
+#first-ID {
+    color:rgb(5, 5, 255);
+    font-size: 36px
+
+}
+
+/* The third element**: in  
+addition to the styles for all odd numbered elements,
+ add a font size of 24px */
+ .odd-numbered-elements.different{
+    font-size:24px;
+}
+
+/* * **The fourth element**: a light green background, a
+ font size of 24px, and bold */
+
+ #second-ID {
+    background-color: lightgreen;
+    font-size:24px;
+    font-weight:700;
+ }
+
+
+
